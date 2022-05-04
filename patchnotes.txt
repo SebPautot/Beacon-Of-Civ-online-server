@@ -1,0 +1,5 @@
+v1.0 :
+- Fixed an issue where multiple game versions couldn't be accepted
+- Fixed an issue where a user could create and join the same lobby
+- Error messages can come from the server
+- Fixed an issue where a user could create multiple lobbies but 
