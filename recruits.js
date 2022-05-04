@@ -84,7 +84,6 @@ wss.on('connection', function connection(ws) {
 
 
       if (sessions[args[1]]) {
-        sessions[args[1]] = sessions[args[1]].trim();
         sessions[args[1]].users.forEach(user => {
           if (user.ws == ws) {
             ws.send("error_You already joined lobby " + args[1]);
