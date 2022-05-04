@@ -8,4 +8,4 @@ sudo git pull --force --allow-unrelated-histories
 
 npm install
 
-pm2 start recruits
+pm2 start recruits.js
